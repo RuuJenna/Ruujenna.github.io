@@ -1,0 +1,25 @@
+.color-example {
+    color:pink;
+    background-color:grey;
+    border-style:double;
+}
+.header-example {
+  font-size:20px;
+  font-family:fantasy;
+    color:indigo
+}
+.list-example {
+    list-style-type:circle;
+    font-family:monospace;
+    color:darkred;
+}
+.text-example {
+  font-size:50px;
+  font-family:serif;
+  text-transform: capitalize;
+  text-decoration: underline;
+}
+.div-example {
+  border-style: dotted;
+  background-color:lightsalmon
+}
