@@ -1,0 +1,22 @@
+body {
+    background-color:cornsilk;
+    background-image: none;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+h1 {
+    border-style:dotted ;
+}
+h2 {
+    border-style:dotted ;
+}
+p {
+    border-style: solid ;
+    background-color: khaki;
+}
