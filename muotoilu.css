@@ -1,0 +1,81 @@
+h1 {
+    color:black;
+    text-align: center;
+    font-size: 2em;
+    height: 50px;
+    padding-top: 20px;
+    background-color: beige;
+}
+body {
+    font-family: monospace;
+    background-color: wheat;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+article {
+    background-color: linen;
+    padding: 20px;
+    text-align: left;
+    font-size: 1em;
+
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-block: 20px;
+    color: black;
+    width: calc(99.6% - 105px);
+}
+ul {
+    list-style-type: circle;
+    margin-left: 20px;
+    padding: 8px;
+    color: black;
+}
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+nav {
+    float: left;
+    width: 20%;
+    background-color: beige;
+    padding: 20px;
+    height: 300px;
+    text-align: left;
+}
+section {
+    float: right;
+    width:70%;
+    background-color: lightyellow;
+    padding: 20px;
+   line-height: 1.5;
+    text-align: left;
+    height: 300px;
+}
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+footer  {
+    background-color: white;
+    height: 40px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 1em;
+    color: black;
+    clear: both;
+
+    position: relative;
+    bottom: 0;
+    width: 99.7%;
+    margin-block-start: 50px;
+    border-style: groove;
+    border-color: beige;
+    margin-right: 25px;
+}
+@media (max-width: 768px) {
+    nav, section {
+        width: 100%;
+        width: 100%;
+    }
+}
