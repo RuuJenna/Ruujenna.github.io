@@ -1,25 +1,194 @@
-.color-example {
-    color:pink;
-    background-color:grey;
-    border-style:double;
-}
-.header-example {
-  font-size:20px;
-  font-family:fantasy;
-    color:indigo
-}
-.list-example {
-    list-style-type:circle;
-    font-family:monospace;
-    color:darkred;
-}
-.text-example {
-  font-size:50px;
-  font-family:serif;
-  text-transform: capitalize;
+
+.navbar {
+  background-color: #ffffff !important;  
+  z-index: 1000;
+
+  
+  }
+a:active {
+  color: #9d8189;
+background-color: transparent;
   text-decoration: underline;
 }
-.div-example {
-  border-style: dotted;
-  background-color:lightsalmon
+  .mySlides {
+    display: none;
+  }
+  .w3-top .w3-bar {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #f5f5f5;
+    color: #222;
+  }
+  .custom-pink {
+    background-color: #FFCAD4 !important;
+    color: #000; 
+  }
+  .w3-container {
+    padding: 20px;
+  }
+  .w3-bar-item img {
+    height: 40px; /* Aseta logo koon suhteessa */
+    width: auto;  /* Varmistaa, että korkeus skaalautuu oikein */
+    display: block
 }
+  h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+  }
+  h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  .bg-grey {
+    background-color: #f7f7f7;
+  }
+  .video-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .video-column, .text-column {
+    flex: 1 1 50%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .video-column iframe {
+    width: 100%;
+    height: 315px;
+    border: none;
+  }
+    .contact-section {
+      background-color: #f7f7f7;
+      padding-bottom: 100px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .contact-form {
+      max-width: 900px;
+      margin: 0 auto;
+      text-align: left;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      font-size: 1.2rem;
+      padding: 15px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      box-sizing: border-box;
+    }
+
+    .contact-form button {
+      font-size: 1.1rem;
+      padding: 12px 30px;
+      border: none;
+      background-color: #333;
+      color: white;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    .contact-form button:hover {
+      background-color: #555;
+    }
+
+    /* Responsiivinen */
+    @media (max-width: 600px) {
+      .contact-form {
+        padding: 0 10px;
+      }
+    }
+    .faq-item {
+      margin-bottom: 16px;
+    }
+    .faq-question {
+      cursor: pointer;
+      background-color: #FFCAD4;
+      padding: 12px;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+    .faq-answer {
+      display: none;
+      padding: 10px;
+      background: #fff;
+      border: 1px solid #ccc;
+      border-top: none;
+    }
+
+      .custom-pink {
+        background-color: #FFCAD4;
+        color: #000; 
+      }
+      
+      .w3-container {
+        padding: 40px;
+        display: block;
+      }
+      
+      h1, h2, h3 {
+        font-family: 'Montserrat', sans-serif;
+      }
+      
+      h2 {
+        font-size: 24px;
+        text-transform: uppercase;
+        color: #303030;
+        font-weight: 600;
+        margin-bottom: 30px;
+      }
+      
+      .bg-grey {
+        background-color: #f7f7f7;
+      }
+      p {
+        font-size: 1.1rem;
+        line-height: 1.6;
+      }
+      ul {
+        list-style-type: none;
+        font-size: 1.1rem;
+        padding: 0;
+      }
+      ol {
+        font-size: 1.1rem;
+        padding: 0;
+      }
+
+      .contact-section {
+        background-color: #f7f7f7;
+        padding: 60px 20px;
+        text-align: center;
+      }
+      
+      .contact-section h2 {
+        margin-bottom: 20px;
+      }
+      iframe {
+        width: 400px;
+        height: 315px;
+        border: none;
+      }
+      
+      /* Responsiivinen */
+      @media (max-width: 600px) {
+        .contact-form {
+          padding: 0 10px;
+        }
+      }
+      
+      /* Footer */
+        footer {
+            background-color: #FFCAD4;
+            color:#9d8189;
+            text-align: center; /* Ensure content is centered */
+            padding: 32px 16px;
+            width: 100%; /* Full width */
